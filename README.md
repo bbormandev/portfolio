@@ -1,46 +1,15 @@
-# Astro Starter Kit: Basics
+# My Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+This is a portfolio site built using [Astro](https://astro.build/) and styled with [Tailwind](https://tailwindcss.com/). The site is hosted at https://bborman.dev, check it out!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Getting Started
 
-## 🚀 Project Structure
+You can also run the site locally by pulling down the repo and running `npm run dev` to start up the development server.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Hosting
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+The site is currently hosted on [Vercel](https://vercel.com) as a static site.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Roadmap
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+I plan to expand on the about me section to give a better idea of the work I do and the interests I have. I also will be adding a blog like feature to highlight projects and experiments that I am working on all in one place.
