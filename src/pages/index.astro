@@ -12,19 +12,13 @@ import Layout from "../layouts/Layout.astro";
           >
             Brian Borman
           </h1>
-          <p class="text-lg md:text-xl text-muted-foreground text-balance">
+          <p class="pl-1 text-lg md:text-xl text-muted-foreground text-balance">
             Built with curiosity. Debugged with care.
           </p>
         </div>
-
-        <p class="text-base md:text-lg leading-relaxed text-foreground/90">
-          I'm a software engineer that loves learning how things work,
-          experimenting with ideas, and turning curiosity into something useful
-          (or at least entertaining).
-        </p>
       </div>
 
-      <div class="mt-12 md:mt-16 flex flex-wrap gap-4">
+      <div class="mt-8 md:mt-12 flex flex-wrap gap-4">
         <a
           href="/resume.pdf"
           class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition-opacity font-medium"
@@ -44,6 +38,41 @@ import Layout from "../layouts/Layout.astro";
           LinkedIn
         </a>
       </div>
+
+      <section id="about" class="mt-12 md:mt-16 space-y-6 md:space-y-8">
+        <h2
+          class="font-display text-3xl md:text-4xl font-bold leading-tight tracking-tight"
+        >
+          A Bit About Me
+        </h2>
+        <p class="text-base md:text-lg leading-relaxed text-foreground/90">
+          I'm a software engineer with a passion for understanding how things
+          work. Over the years, I've worked professionally with PHP, Java,
+          TypeScript, and Node, and casually with Python and Go for my side
+          projects. I've had the chance to build sites using a variety of CMSes,
+          several WooCommerce and Shopify plugins, and both public and private
+          APIs. I'm currently interested in distributed systems, automation, and
+          applying best practices for scalable and testable code.
+        </p>
+        <p class="text-base md:text-lg leading-relaxed text-foreground/90">
+          Outside of work, I spend time growing a small garden, experimenting
+          with my home server, and exploring creative hobbies with my family. My
+          home server hosts everything from Plex to Minecraft to self-hosted web
+          tools. I like to read (mostly sci-fi and fantasy), play video games
+          (mostly strategy and JRPGs), and dabble in a range of different
+          hobbies. I enjoy the process of making ideas tangible, whether that's
+          building software, growing food, or creating something my kids can
+          play with.
+        </p>
+        <p class="text-base md:text-lg leading-relaxed text-foreground/90">
+          This site will soon expand with writing on engineering experiments,
+          personal projects, and the lessons I've learned from both. I hope to
+          share technical insights, project breakdowns, and reflections on my
+          continuous learning as an engineer. If you're curious about
+          technology, creativity, or the overlap between the two, I hope you'll
+          enjoy what's coming next!
+        </p>
+      </section>
     </section>
   </div>
 </Layout>
